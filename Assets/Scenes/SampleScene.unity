@@ -334,7 +334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7675826601332790545, guid: 13e8f94090d33bb499171d3d4a51454c, type: 3}
+  m_Sprite: {fileID: 7675826601332790545, guid: 9bd6b38526faf79409c718c634965266, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2097,12 +2097,12 @@ SpriteRenderer:
   m_SortingLayerID: 308052299
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 90a9008f5a93f6245bd749a5d550e830, type: 3}
+  m_Sprite: {fileID: -2174701419336364216, guid: 113411f8fdb374843a33b9594eb95c97, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.6, y: 3.6}
+  m_Size: {x: 3.53, y: 3.53}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2176,8 +2176,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.6, y: 3.6}
-    newSize: {x: 3.6, y: 3.6}
+    oldSize: {x: 3.53, y: 3.53}
+    newSize: {x: 3.53, y: 3.53}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -2347,7 +2347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7675826601332790545, guid: 13e8f94090d33bb499171d3d4a51454c, type: 3}
+  m_Sprite: {fileID: 7675826601332790545, guid: 9bd6b38526faf79409c718c634965266, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2534,7 +2534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55075333e19b9954584baef3f3015c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  obstacle: {fileID: 2413718685503887980, guid: 409e7919e6b711647b1438b1f0600172, type: 3}
+  obstacle: {fileID: 2413718685503887980, guid: 7f4f761302ed250479c09451c55f320a, type: 3}
   spawnRate: 1.5
   timer: 0
 --- !u!4 &1660096872
@@ -2755,13 +2755,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8d1ff130691bd348b68678af369feab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  coin: {fileID: 7618943216645224401, guid: f6b08d954e7a7a44c91cd2852ac1b486, type: 3}
+  coin: {fileID: 7618943216645224401, guid: de28def82eb79924d92f24af6b1e269b, type: 3}
   spawnRate: 2
   heightOffset: 10
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 8
-  overlapCircleRadius: 2.5
+  overlapCircleRadius: 1
 --- !u!4 &1728675361
 Transform:
   m_ObjectHideFlags: 0
@@ -2813,9 +2813,9 @@ MonoBehaviour:
   isHealthZero: 0
   homeScreen: 0
   mainMenuTriggerScreen: {fileID: 556108195}
-  coin: {fileID: 6821132368740933449, guid: f6b08d954e7a7a44c91cd2852ac1b486, type: 3}
+  coin: {fileID: 6821132368740933449, guid: de28def82eb79924d92f24af6b1e269b, type: 3}
   gameOverScreen: {fileID: 581536762}
-  obstacle: {fileID: 4634096045681513042, guid: 409e7919e6b711647b1438b1f0600172, type: 3}
+  obstacle: {fileID: 4634096045681513042, guid: 7f4f761302ed250479c09451c55f320a, type: 3}
   spawner: {fileID: 1660096871}
   healthBar: {fileID: 1905098642}
   health: 100

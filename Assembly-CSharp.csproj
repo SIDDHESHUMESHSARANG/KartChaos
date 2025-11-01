@@ -48,17 +48,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\spawnObstacle.cs" />
-    <Compile Include="Assets\KartControls.cs" />
-    <Compile Include="Assets\LogicManagement.cs" />
-    <Compile Include="Assets\MoveKart.cs" />
-    <Compile Include="Assets\PlaybackControls.cs" />
-    <Compile Include="Assets\UIEffects.cs" />
-    <Compile Include="Assets\LoadScene.cs" />
-    <Compile Include="Assets\ObstacleSpawn.cs" />
-    <Compile Include="Assets\coinSpawn.cs" />
-    <Compile Include="Assets\FPSLimiter.cs" />
-    <Compile Include="Assets\Coin.cs" />
+    <Compile Include="Assets\scripts\ObstacleSpawn.cs" />
+    <Compile Include="Assets\scripts\UIEffects.cs" />
+    <Compile Include="Assets\scripts\LoadScene.cs" />
+    <Compile Include="Assets\scripts\spawnObstacle.cs" />
+    <Compile Include="Assets\scripts\PlaybackControls.cs" />
+    <Compile Include="Assets\scripts\LogicManagement.cs" />
+    <Compile Include="Assets\scripts\KartControls.cs" />
+    <Compile Include="Assets\scripts\Coin.cs" />
+    <Compile Include="Assets\scripts\coinSpawn.cs" />
+    <Compile Include="Assets\scripts\MoveKart.cs" />
+    <Compile Include="Assets\scripts\FPSLimiter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

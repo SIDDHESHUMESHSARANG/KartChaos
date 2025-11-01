@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7ca5784cd0b4d0840b816954868c50f3
+guid: 8077a0cc3e3c1b148838bba4928fee8f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4160635012330822537
-    second: obstacle_0
+      213: 7675826601332790545
+    second: coin_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,13 +40,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: obstacle_0
+      name: coin_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 348
-        height: 360
+        width: 626
+        height: 626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98b180eef7b8db930800000000000000
-      internalID: 4160635012330822537
+      spriteID: 1155fe920a3068a60800000000000000
+      internalID: 7675826601332790545
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      obstacle_0: 4160635012330822537
+      coin_0: 7675826601332790545
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
