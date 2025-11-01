@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "KartControls",
+    "maps": [
+        {
+            "name": "player",
+            "id": "56cc0625-cc6c-4ee1-8cec-8b21c3e3c62b",
+            "actions": [
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "747cda46-a17c-4f5e-96b0-ebec4514b90b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "1ba42a24-a973-45fe-8f99-fb74c76bdf8e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1c49b730-455a-441f-8a98-4afee446251d",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e675bb6c-79ed-462a-a581-2b525e59f808",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
