@@ -90,6 +90,7 @@ public class LogicManagement : MonoBehaviour
         {
             level += 1;
             levelTxt.text = level.ToString();
+            ChangeCameraColor();
             if (obstacle != null)
             {
                 obstacle.moveSpeed += 5;
@@ -108,6 +109,25 @@ public class LogicManagement : MonoBehaviour
             }
 
         }
+    }
+
+    private void ChangeCameraColor()
+    {
+        Color[] colors = new Color[]
+        {
+        Color.blue,
+        Color.green,
+        Color.yellow,
+        Color.cyan,
+        Color.magenta,
+        new Color(1f, 0.5f, 0f),
+        new Color(0.5f, 0f, 1f),
+        new Color(0f, 0.5f, 0.5f),
+        new Color(0.8f, 0.8f, 0f)
+        };
+
+        int randomIndex = Random.Range(0, colors.Length);
+        Camera.main.backgroundColor = colors[randomIndex];
     }
 
     public void RestartGame()
